@@ -1,8 +1,43 @@
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
 .ipynb_checkpoints/
-*.pyc
-.venv/
+
+# Virtual Environments
 venv/
-data/
-*.csv
-*.xlsx
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.log
+*.bak
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# Power BI Temporary Files
+*.pbit.autosave
+~$*.pbix
+
+# Excel Temporary Files
+~$*.xlsx
+~$*.xls
