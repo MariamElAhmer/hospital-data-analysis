@@ -1,10 +1,10 @@
 # Hospital Data Analysis
 
-## Project Overview
+## Overview
 
-An end-to-end Hospital Data Analysis project using SQL, Python, and Power BI to explore hospital operations, patient activity, financial performance, pharmacy analytics, and staff distribution.
+This project focuses on analyzing hospital data to understand patient activity, hospital operations, financial performance, pharmacy activities, and staff distribution.
 
-The project aims to transform raw hospital data into meaningful insights that support data-driven decision-making.
+The project combines SQL, Python, and Power BI to explore the data, identify patterns, and present meaningful insights through interactive visualizations.
 
 ## Tools & Technologies
 
@@ -15,103 +15,86 @@ The project aims to transform raw hospital data into meaningful insights that su
 - Matplotlib
 - Power BI
 
-## Project Components
+## Data Analysis
 
-### 1. SQL Analysis
+### SQL Analysis
 
 - Data exploration and querying.
 - Patient admission analysis.
 - Billing and payment analysis.
 - Bed availability analysis.
 - Insurance coverage analysis.
-- Department and patient statistics.
+- Department performance analysis.
 - Hospital performance indicators.
 
-### 2. Python – Data Cleaning & EDA
+### Python Analysis
 
 - Data loading and inspection.
 - Missing values analysis.
-- Data type conversion.
 - Data cleaning and preprocessing.
+- Data type conversion.
 - Feature engineering.
 - Exploratory Data Analysis (EDA).
 - Data visualization.
 
-### 3. Power BI Dashboard
+## Power BI Dashboard
 
-The interactive dashboard consists of six main pages:
+The dashboard consists of six pages, each focusing on a different aspect of hospital performance.
 
-**1. Hospital Overview**
-- Total Patients, Visits, and Income.
-- Visits by Department.
-- Bed Availability.
-- Patient Gender Distribution.
-- Monthly Income Trends.
+### 1. Hospital Overview
+- Total patients, visits, and income.
+- Visits by department.
+- Bed availability.
+- Patient gender distribution.
+- Monthly income trends.
 
-**2. Patient Activity**
-- Patients by Age Group.
-- Major Patient Cities.
-- Disease Category Distribution.
-- Average Days in Hospital.
-- Insurance Coverage.
+### 2. Patient Activity
+- Patient age groups.
+- Patient distribution by city.
+- Disease categories.
+- Average hospital stay.
+- Insurance coverage.
 
-**3. Department Activity**
-- Average Hospital Stay by Department.
-- Revenue by Department.
-- Staff Distribution by Department.
+### 3. Department Activity
+- Average length of stay by department.
+- Department revenue.
+- Staff distribution across departments.
 
-**4. Payment Analysis**
-- Revenue Source Breakdown.
-- Insurance Coverage Breakdown.
-- Revenue by Payment Method.
-- Revenue by Diagnostic Tests.
+### 4. Payment Analysis
+- Revenue sources.
+- Insurance coverage.
+- Payment methods.
+- Diagnostic test revenue.
 
-**5. Pharmacy Analytics**
-- Top Prescribed Drugs.
-- Medication Category Profile.
-- Medication Mix by Diagnosis.
+### 5. Pharmacy Analytics
+- Most prescribed drugs.
+- Medication categories.
+- Medication distribution by diagnosis.
 
-**6. Staff Analysis**
-- Staff Allocation by Department.
-- Staff Distribution by Shift.
-- Staff Composition by Role.
-- Experience Distribution by Role.
+### 6. Staff Analysis
+- Staff allocation by department.
+- Shift distribution.
+- Staff roles.
+- Experience distribution.
 
-## Repository Structure
+## Project Files
 
-```text
-Hospital-Data-Analysis/
-│
-├── powerbi/
-│   └── Hospital_Dashboard.pbix
-│
-├── sql/
-│   └── hospital_analysis_queries.sql
-│
-├── notebooks/
-│   └── hospital_data_cleaning_and_eda.ipynb
-│
-├── screenshots/
-│   ├── 01-hospital-overview.png
-│   ├── 02-patient-activity.png
-│   ├── 03-department-activity.png
-│   ├── 04-payment-analysis.png
-│   ├── 05-pharmacy-analytics.png
-│   └── 06-staff-analysis.png
-│
-├── README.md
-└── .gitignore
-```
+The project is organized into the following folders:
+
+- **powerbi:** Contains the Power BI dashboard file.
+- **sql:** Contains the SQL queries used for data exploration and analysis.
+- **notebooks:** Includes the Python notebook for data cleaning and exploratory data analysis.
+- **screenshots:** Contains screenshots of the six dashboard pages.
 
 ## Project Objectives
 
 - Analyze hospital operational performance.
 - Understand patient demographics and activity.
-- Evaluate department revenue and performance.
+- Evaluate department performance and revenue.
 - Explore payment methods and insurance coverage.
 - Analyze pharmacy and medication trends.
 - Examine staff distribution and experience.
 
-## Key Skills Demonstrated
+## Skills Applied
 
-SQL | Python | Data Cleaning | EDA | Data Visualization | Power BI | Dashboard Development | Business Intelligence
+SQL, Python, Data Cleaning, Data Preprocessing, Exploratory Data Analysis, Data Visualization, Power BI, Dashboard Development, and Business Intelligence.
