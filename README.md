@@ -53,7 +53,7 @@ in the screenshots folder.
 
 ## Repository Structure
 
-- sql/: SQL analysis queries
+- SQL/: SQL analysis queries
 - notebooks/: Python analysis notebook
 - screenshots/: Power BI dashboard screenshots
 
